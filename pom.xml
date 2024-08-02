@@ -22,6 +22,7 @@
         <module>ghost-common</module>
         <module>ghost-common/common-core</module>
         <module>ghost-common/common-nacos</module>
+        <module>ghost-common/common-api</module>
     </modules>
 
 
@@ -44,6 +45,12 @@
             <artifactId>lombok</artifactId>
             <optional>true</optional>
             <version>1.18.32</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.9.1</version>
         </dependency>
 
     </dependencies>
