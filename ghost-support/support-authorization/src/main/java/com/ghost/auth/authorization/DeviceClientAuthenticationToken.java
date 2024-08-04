@@ -11,8 +11,7 @@ import org.springframework.security.oauth2.server.authorization.client.Registere
 /**
  * 设备码模式token
  *
- * @author Joe Grandja
- * @author Steve Riesenberg
+ * @author yaols
  * @since 1.1
  */
 @Transient

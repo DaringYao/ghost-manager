@@ -28,7 +28,7 @@ import java.util.*;
 /**
  * 认证服务器相关自定接口
  *
- * @author vains
+ * @author yaols
  */
 @Controller
 @RequiredArgsConstructor

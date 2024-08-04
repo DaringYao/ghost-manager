@@ -15,6 +15,22 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("auth")
 public class TestController {
 
+    @GetMapping("test")
+    public String test() {
+        return "test";
+    }
+
+    @GetMapping("/test02")
+    @PreAuthorize("hasAuthority('SCOPE_message.write')")
+    public String test02() {
+        return "test02";
+    }
+
+    @GetMapping("/app")
+    @PreAuthorize("hasAuthority('app')")
+    public String app() {
+        return "app";
+    }
 
 
 }

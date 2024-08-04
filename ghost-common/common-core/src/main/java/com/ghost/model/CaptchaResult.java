@@ -6,7 +6,7 @@ import lombok.Data;
 /**
  * 获取验证码返回
  *
- * @author vains
+ * @author yaols
  */
 @Data
 @AllArgsConstructor

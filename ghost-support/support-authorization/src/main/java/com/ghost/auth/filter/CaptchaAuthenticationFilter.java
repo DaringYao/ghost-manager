@@ -23,7 +23,7 @@ import java.io.IOException;
 /**
  * 验证码校验过滤器
  *
- * @author vains
+ * @author yaols
  */
 @Slf4j
 public class CaptchaAuthenticationFilter extends GenericFilterBean {

@@ -71,7 +71,7 @@ import java.util.stream.Collectors;
  * 1. 加载了WebSecurityConfiguration配置类, 配置安全认证策略。
  * 2. 加载了AuthenticationConfiguration, 配置了认证信息。
  *
- * @author vains
+ * @author yaols
  */
 @Configuration
 @EnableWebSecurity

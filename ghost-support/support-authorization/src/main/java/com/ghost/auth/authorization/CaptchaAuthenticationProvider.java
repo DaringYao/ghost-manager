@@ -20,7 +20,7 @@ import org.springframework.web.context.request.ServletRequestAttributes;
  * 在authenticate方法中添加校验验证码的逻辑
  * 最后调用父类的authenticate方法并返回
  *
- * @author vains
+ * @author yaols
  */
 @Slf4j
 @Component

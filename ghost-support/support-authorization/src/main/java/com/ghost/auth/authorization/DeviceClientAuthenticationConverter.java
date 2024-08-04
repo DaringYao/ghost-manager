@@ -18,8 +18,7 @@ import org.springframework.util.StringUtils;
 /**
  * 获取请求中参数转化为DeviceClientAuthenticationToken
  *
- * @author Joe Grandja
- * @author Steve Riesenberg
+ * @author yaols
  * @since 1.1
  */
 public final class DeviceClientAuthenticationConverter implements AuthenticationConverter {

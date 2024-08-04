@@ -19,7 +19,7 @@ import org.springframework.security.oauth2.server.authorization.web.OAuth2Client
  *
  * @author Joe Grandja
  * @author Steve Riesenberg
- * @author vains
+ * @author yaols
  * @see DeviceClientAuthenticationToken
  * @see DeviceClientAuthenticationConverter
  * @see OAuth2ClientAuthenticationFilter
