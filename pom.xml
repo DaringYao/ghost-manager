@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ghost</groupId>
-    <artifactId>ghost-mamager</artifactId>
+    <artifactId>ghost-manager</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -20,9 +20,6 @@
         <module>ghost-support</module>
         <module>ghost-services</module>
         <module>ghost-common</module>
-        <module>ghost-common/common-core</module>
-        <module>ghost-common/common-nacos</module>
-        <module>ghost-common/common-api</module>
     </modules>
 
 
@@ -38,6 +35,11 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-bootstrap</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
         </dependency>
 
         <dependency>
