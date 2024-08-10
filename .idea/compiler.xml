@@ -10,6 +10,7 @@
         <module name="common-api" />
         <module name="services-system" />
         <module name="support-authorization" />
+        <module name="ghost-job" />
         <module name="common-nacos" />
         <module name="services-scheduling" />
         <module name="common-redis" />
@@ -29,6 +30,7 @@
       <module name="common-nacos" options="-parameters" />
       <module name="common-redis" options="-parameters" />
       <module name="ghost-common" options="" />
+      <module name="ghost-job" options="-parameters" />
       <module name="services-flowable" options="-parameters" />
       <module name="services-scheduling" options="-parameters" />
       <module name="services-system" options="-parameters" />

@@ -20,6 +20,7 @@
         <module>ghost-support</module>
         <module>ghost-services</module>
         <module>ghost-common</module>
+        <module>ghost-job</module>
     </modules>
 
 
