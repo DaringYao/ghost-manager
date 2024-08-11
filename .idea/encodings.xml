@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/ghost-common/common-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ghost-common/common-core/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ghost-common/common-nacos/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ghost-common/common-redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ghost-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ghost-common/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ghost-job/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ghost-job/job-cache/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ghost-services/services-flowable/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ghost-services/services-scheduling/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ghost-services/services-system/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ghost-services/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ghost-services/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ghost-support/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ghost-support/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ghost-support/support-auth/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/ghost-support/support-auth/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ghost-support/support-authorization/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ghost-support/support-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ghost-support/support-gateway/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>

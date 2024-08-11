@@ -13,7 +13,7 @@ import java.io.Serializable;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class Result<T> implements Serializable {
+public class GhostResult<T> implements Serializable {
 
     /**
      * 响应状态码
@@ -42,8 +42,8 @@ public class Result<T> implements Serializable {
      * @param <T>  类型
      * @return 返回统一响应
      */
-    public static <T> Result<T> success(T data) {
-        return new Result<>(HttpStatus.OK.value(), ("操作成功."), Boolean.TRUE, data);
+    public static <T> GhostResult<T> success(T data) {
+        return new GhostResult<>(HttpStatus.OK.value(), ("操作成功."), Boolean.TRUE, data);
     }
 
     /**
@@ -51,8 +51,8 @@ public class Result<T> implements Serializable {
      *
      * @return 返回统一响应
      */
-    public static Result<String> success() {
-        return new Result<>(HttpStatus.OK.value(), ("操作成功."), Boolean.TRUE, (null));
+    public static GhostResult<String> success() {
+        return new GhostResult<>(HttpStatus.OK.value(), ("操作成功."), Boolean.TRUE, (null));
     }
 
     /**
@@ -63,8 +63,8 @@ public class Result<T> implements Serializable {
      * @param <T>     类型
      * @return 返回统一响应
      */
-    public static <T> Result<T> success(String message, T data) {
-        return new Result<>(HttpStatus.OK.value(), message, Boolean.TRUE, data);
+    public static <T> GhostResult<T> success(String message, T data) {
+        return new GhostResult<>(HttpStatus.OK.value(), message, Boolean.TRUE, data);
     }
 
     /**
@@ -74,8 +74,8 @@ public class Result<T> implements Serializable {
      * @param <T>     类型
      * @return 返回统一响应
      */
-    public static <T> Result<T> error(String message) {
-        return new Result<>(HttpStatus.INTERNAL_SERVER_ERROR.value(), message, Boolean.FALSE, (null));
+    public static <T> GhostResult<T> error(String message) {
+        return new GhostResult<>(HttpStatus.INTERNAL_SERVER_ERROR.value(), message, Boolean.FALSE, (null));
     }
 
     /**
@@ -86,8 +86,8 @@ public class Result<T> implements Serializable {
      * @param <T>     类型
      * @return 返回统一响应
      */
-    public static <T> Result<T> error(Integer code, String message) {
-        return new Result<>(code, message, Boolean.FALSE, (null));
+    public static <T> GhostResult<T> error(Integer code, String message) {
+        return new GhostResult<>(code, message, Boolean.FALSE, (null));
     }
 
     /**
@@ -98,8 +98,8 @@ public class Result<T> implements Serializable {
      * @param <T>     类型
      * @return 返回统一响应
      */
-    public static <T> Result<T> oauth2Error(Integer code, String message, T data) {
-        return new Result<>(code, message, Boolean.FALSE, data);
+    public static <T> GhostResult<T> oauth2Error(Integer code, String message, T data) {
+        return new GhostResult<>(code, message, Boolean.FALSE, data);
     }
 
     /**
@@ -110,8 +110,8 @@ public class Result<T> implements Serializable {
      * @param <T>     类型
      * @return 返回统一响应
      */
-    public static <T> Result<T> oauth2Error(String message, T data) {
-        return new Result<>(HttpStatus.UNAUTHORIZED.value(), message, Boolean.FALSE, data);
+    public static <T> GhostResult<T> oauth2Error(String message, T data) {
+        return new GhostResult<>(HttpStatus.UNAUTHORIZED.value(), message, Boolean.FALSE, data);
     }
 
 }
