@@ -11,23 +11,5 @@
         <property name="enabledTLSProtocols" value="TLSv1, TLSv1.1, TLSv1.2, TLSv1.3" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="ghost_manager@47.100.163.55" uuid="5360262d-005b-4348-bdb0-6155dc7f8ee6">
-      <driver-ref>mysql.cloud_sql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>$PROJECT_DIR$/ghost-support/support-authorization/src/main/resources/bootstrap.properties</remarks>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://47.100.163.55:3306/ghost_manager?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone=Asia/Shanghai</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
-    <data-source source="LOCAL" name="ghost_manager@47.100.163.55" uuid="9409fb87-3189-4af1-afa6-0b4753af99d6">
-      <driver-ref>mysql.cloud_sql.8</driver-ref>
-      <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>$PROJECT_DIR$/ghost-services/services-system/src/main/resources/bootstrap.properties</remarks>
-      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://47.100.163.55:3306/ghost_manager?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=false&amp;serverTimezone=Asia/Shanghai</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
   </component>
 </project>
