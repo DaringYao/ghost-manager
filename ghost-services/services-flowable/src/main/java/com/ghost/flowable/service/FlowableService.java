@@ -4,8 +4,18 @@ import org.flowable.engine.runtime.ProcessInstance;
 import org.flowable.task.api.Task;
 
 import java.util.List;
+import java.util.zip.ZipInputStream;
 
 public interface FlowableService {
+
+
+    /**
+     * 部署流程定义。
+     *
+     * @param zipInputStream 流程定义的zip文件
+     * @return id
+     */
+    String deployFlow(ZipInputStream zipInputStream);
 
     /**
      * 启动流程实例。
