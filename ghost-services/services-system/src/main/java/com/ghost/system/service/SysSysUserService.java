@@ -1,8 +1,11 @@
 package com.ghost.system.service;
 
 import com.ghost.system.entity.SysUser;
+import com.ghost.system.entity.SysUserDetails;
 import com.ghost.system.repository.SysUserRepository;
 import org.springframework.stereotype.Service;
+
+import java.util.Objects;
 
 @Service
 public class SysSysUserService {
@@ -26,7 +29,12 @@ public class SysSysUserService {
     }
 
     public SysUser findById(Long id) {
-        return userRepository.findById(id).orElse(null);
+
+        SysUser sysUser = userRepository.findById(id).orElse(null);
+        if (Objects.nonNull(sysUser)) {
+            SysUserDetails sysUserDetails = sysUser.getSysUserDetails();
+        }
+        return sysUser;
     }
 
     public void deleteUserById(Long id) {

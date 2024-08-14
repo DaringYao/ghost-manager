@@ -41,5 +41,9 @@ public class SysUser {
     @Temporal(TemporalType.TIMESTAMP)
     private Date updatedAt;
 
-    // Getters and setters
+    @OneToOne
+    @MapsId("userId")
+    @JoinColumn(name = "id")
+    private SysUserDetails sysUserDetails;
+
 }
